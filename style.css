@@ -1,22 +1,11 @@
-h1{
-    background-color: red;
-    background-image: url("https://dummyimage.com/300x200/004cf0/ffffff.png&text=test")  ;
-    height:500px;
-    background-size:100px ;
-    background-repeat:no-repeat;
-
+.test1{
+    outline-style: dotted;
+    outline-color: red;
+    outline-width: 5px;
+    border:5px solid black;
 }
-.first{
-    background-color: grey;
-    background-image:url("https://dummyimage.com/200x100/f000f0/303eff.png&text=test");
-    background-repeat:no-repeat;
-    background-position: center;
-    background-attachment:scroll;
-    height:400px;
-}
-.blue{
-    background:red
-    url("https://dummyimage.com/300x200/004cf0/ffffff.png&text=test") no-repeat fixed right bottom ;
-
-    height:400px;
+.test2{
+    margin-top: 20px;
+    outline:5px solid black;
+    border:5px solid red;
 }
