@@ -1,0 +1,17 @@
+.first{ color:fuchsia;
+       background:red;}
+       
+#one{
+    color:purple;
+    background:rgb(255,0,0);
+}
+#two{
+    color:green;
+    background:rgba(255,0,0,.5);
+
+}
+    
+h1{
+    color:rgb(147, 43, 45);
+    background:hsl(0,100%,50%);
+}   
