@@ -1,15 +1,21 @@
-.test1::first-letter{
-    background: red;
+h1{
+    
+    border:1px solid black;
+    text-align:center;
+    text-decoration:underline;  
+    text-transform:capitalize;  
+    text-shadow: 3px 3px 2px red;
+    color:white;
+    
 }
-::selection{
-    background: yellow;
+a{
+    text-decoration:;
 }
-/*
-div::first-line{
-    color:red;*/
-.test2::before{
-    content: "NEW";
+.test1{
+    text-decoration: line-through;
+    line-height:150px;
+    font-size: 25px;
 }
-.test2::after{
-    content: "NEW";
+.test6{
+    text-indent:100px;
 }
