@@ -1,11 +1,15 @@
-.test1{
-    outline-style: dotted;
-    outline-color: red;
-    outline-width: 5px;
-    border:5px solid black;
+.test1::first-letter{
+    background: red;
 }
-.test2{
-    margin-top: 20px;
-    outline:5px solid black;
-    border:5px solid red;
+::selection{
+    background: yellow;
+}
+/*
+div::first-line{
+    color:red;*/
+.test2::before{
+    content: "NEW";
+}
+.test2::after{
+    content: "NEW";
 }
