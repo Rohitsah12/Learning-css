@@ -10,6 +10,9 @@
     left:50px;
     top:50px;
     width: 500px;
+    z-index: 2;
+    height:100px;
+    overflow:scroll;
 }
 .test3{
     background-color: green;
@@ -17,9 +20,10 @@
     left:50px;
     top:50px;
     width: 500px;
+    z-index:1;
 }
 section{
 
-    min-height: 400px;
+    
     border:1px solid black;
 }
