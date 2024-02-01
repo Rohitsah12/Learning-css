@@ -1,29 +1,14 @@
-.test1{
-    background-color: red;
-    position:relative;
-    left:50px;
-    top:50px;
-}
-.test2{
-    background-color: blue;
-    position:fixed;
-    left:50px;
-    top:50px;
-    width: 500px;
-    z-index: 2;
-    height:100px;
-    overflow:scroll;
+.test3 img{
+    float:right;
 }
 .test3{
-    background-color: green;
-    position:absolute;
-    left:50px;
-    top:50px;
-    width: 500px;
-    z-index:1;
+    clear:both;
+    overflow: auto;
+    background-color: yellow;
 }
-section{
-
+.test2{
+    overflow: auto;
+    float:right;
+    background-color: blue;
     
-    border:1px solid black;
 }
