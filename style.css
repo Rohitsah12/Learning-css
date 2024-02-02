@@ -1,35 +1,40 @@
 .one{
     heigth:400px;
     width:100%;
-    background: linear-gradient(green,red);
+    background: radial-gradient(green,red);
 }
 .two{
     heigth:400px;
     width:100%;
-    background: linear-gradient(to right,green,red);
+    background: radial-gradient(green 20px,red 25%,blue 40%);
 }
 .three{
     heigth:400px;
     width:100%;
-    background: linear-gradient(to bottom  right,green,red);
+    background: radial-gradient(at 0% 20%,green 20px,red 25%,blue 40%);
 }
 .four{
     heigth:400px;
     width:100%;
-    background: linear-gradient(50deg,green,red);
+    background: radial-gradient(ellipse closest-side,green,red);
 }
 .five{
     heigth:400px;
     width:100%;
-    background: linear-gradient(0deg,green,red);
+    background: conic-gradient(green,red);
 }
 .Six{
     heigth:400px;
     width:100%;
-    background: linear-gradient(green,red,blue,purple);
+    background: conic-gradient(at 0% 40%,green,red,blue,purple);
 }
 footer{
     heigth:400px;
     width:100%;
-    background: linear-gradient(to left,red,blue 120px,purple);
+    background: repeating-linear-gradient(to left,red,blue 120px,purple);
+}
+header{
+    heigth:400px;
+    width:100%;
+    background: repeating-radial-gradient(red,blue 120px,purple);
 }
