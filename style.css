@@ -1,15 +1,14 @@
-img {
-    width:700px;
+/* a{
+    background: blue;
 }
-.test1{
-    background: red;;
+li{
+    background: yellow;
+}*/
+
+*{
+    background: red;
 }
 
-@media screen and (max-width:1080px){
-    img {
-        width:700px;
-    }
-    .test1{
-        background: red;;
-    } 
-}
+ul{
+    background: pink;
+} 
