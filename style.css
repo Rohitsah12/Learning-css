@@ -1,14 +1,35 @@
-/* a{
-    background: blue;
+.one{
+    heigth:400px;
+    width:100%;
+    background: linear-gradient(green,red);
 }
-li{
-    background: yellow;
-}*/
-
-*{
-    background: red;
+.two{
+    heigth:400px;
+    width:100%;
+    background: linear-gradient(to right,green,red);
 }
-
-ul{
-    background: pink;
-} 
+.three{
+    heigth:400px;
+    width:100%;
+    background: linear-gradient(to bottom  right,green,red);
+}
+.four{
+    heigth:400px;
+    width:100%;
+    background: linear-gradient(50deg,green,red);
+}
+.five{
+    heigth:400px;
+    width:100%;
+    background: linear-gradient(0deg,green,red);
+}
+.Six{
+    heigth:400px;
+    width:100%;
+    background: linear-gradient(green,red,blue,purple);
+}
+footer{
+    heigth:400px;
+    width:100%;
+    background: linear-gradient(to left,red,blue 120px,purple);
+}
