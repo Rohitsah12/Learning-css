@@ -1,3 +1,15 @@
-.test1,.test2,.test3{
-    color:red;
+img {
+    width:700px;
+}
+.test1{
+    background: red;;
+}
+
+@media screen and (max-width:1080px){
+    img {
+        width:700px;
+    }
+    .test1{
+        background: red;;
+    } 
 }
