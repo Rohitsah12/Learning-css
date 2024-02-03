@@ -1,72 +1,36 @@
-@keyframes example{
-    0%{ width:100px;left:100px;}
-    25%{ width:200px}
-    50%{ width:300px}
-    75%{ width:400px:left:400px;}
-    100%{ width:500px}
+*{
+    box-sizing: border-box;
 }
 
 
 
-
-.one{
-    position: absolute;
-    left:0px;
-    top:0px;
-    width:50px;
-    height:200px;
-    animation-name: example;
-    animation-duration: 2s;
-    background-color: red;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+ul li a{
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    font-size: 1.2em;
+    background: #222;
+    text-decoration: none;
 }
-.two{
-   
-    background-color: green;
-    text-align:center;
-    width:200px;
-}
-.three{
-    
-  
-    background-color:yellow;
-    text-align:center;
-    width:200px;
-    height:100px;
-    overflow: hidden;
-}
-.four{
-    
-    background-color:pink;
-    text-align:center;
-    width:200px;
-    height:100px;
-    overflow: hidden;
-}
-footer{
-    
-    background-color:aqua;
-    text-align:center;
-    width:200px;
-    height:100px;
-    overflow: hidden;
+ul li a:hover{
+    background: #444;
 }
 
 
 
-
-
-.five{
- 
-    background-color:purple;
-    text-align:center;
-    width:200px;
-    height:100px;
-    overflow: hidden;
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top:20px;
+    background: black;
+    color: white;
 }
-
-.Six{
-   
-    background-color: blue;
+@media (max-width:760px){
+    ul{
+        flex-direction: column;
+    }
 }
